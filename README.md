@@ -59,8 +59,8 @@ my_qr_reader_app/
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/tuusuario/qr_reader_app.git
-   cd qr_reader_app
+   git clone https://github.com/Jumaikel/qr_scanner.git
+   cd qr_scanner
    ```
 
 2. **Install dependencies**
