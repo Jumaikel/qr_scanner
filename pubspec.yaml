@@ -1,4 +1,4 @@
-name: qr_scanner
+name: QuickQR
 description: "The app is a cross-platform Flutter QR code reader built with Material Design 3 and a monochromatic grayscale palette. It features a home screen with a “Read QR” button styled following MD3 guidelines, real-time scanning via the device camera using qr_code_scanner_plus, intelligent content handling that automatically opens URLs in an external browser or displays non-URL text in-app, and full support for light and dark modes with pure gray tones applied to all UI elements (AppBar, buttons, cards, input fields)."
 publish_to: 'none'
 version: 0.1.0
@@ -18,7 +18,13 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
 
 
 flutter:
   uses-material-design: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
